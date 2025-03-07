@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise_11</title>
+    <style>
+        .grid {
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+
+        .lightblue {
+            background-color: lightblue;
+        }
+
+        .lightpink {
+            background-color: lightpink;
+        }
+
+        .grid-1 {
+            display: grid;
+            margin-top: 10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lightblue">200px</div>
+    <div class="lightpink">75px</div>
+
+    <div class="grid">
+        <div class="lightblue">col1</div>
+        <div class="lightpink">col2</div>
+        <div class="lightblue">col3</div>
+    </div>
+
+    <div class="grid-1">
+        <div class="lightpink">col1</div>
+        <div class="lightpink">col2</div>
+        <div class="lightpink">col3</div>
+        <div class="lightpink">col4</div>
+        <div class="lightpink">col1</div>
+        <div class="lightpink">col2</div>
+        <div class="lightpink">col3</div>
+        <div class="lightpink">col4</div>
+    </div>
+</body>
+
+</html>

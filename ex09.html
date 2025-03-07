@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise_09</title>
+    <style>
+        .red-square {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+
+        .green-circle {
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+
+        .title {
+            font-family: Arial;
+        }
+
+        p {
+            font-family: Arial;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: black;
+        }
+
+        .profile {
+            width: 200px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: 8px;
+            margin-bottom: 4px;
+        }
+
+        .mutual-friends {
+            color: rgb(100, 100, 100);
+            margin-left: 8px;
+            margin-bottom: 12px;
+        }
+
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+
+        .card {
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgb(150, 150, 150);
+            width: 300px;
+            padding-left: 15px;
+            padding-bottom: 20px;
+        }
+
+        .title {
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: rgb(160, 160, 160);
+        }
+
+        .text-box {
+            font-size: 18px;
+            border: none;
+            width: 300px;
+            vertical-align: middle;
+        }
+
+        .tweet-button {
+            background-color: rgb(29, 155, 240);
+            color: white;
+            border: none;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 16px;
+            padding-right: 16px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+
+        .add-friend-button {
+            background-color: rgb(24, 119, 242);
+            color: white;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            margin-left: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red-square"></div>
+    <div class="green-circle"></div>
+    <div class="card">
+        <p class="title">
+            Satisfied with our service?
+        </p>
+        <button>Yes</button>
+        <button>No</button>
+    </div>
+
+    <div class="card">
+        <p class="title">
+            Install YouTube Music
+        </p>
+        <p class="subtitle">
+            Add YouTube Music to your desktop for quick and easy access
+        </p>
+    </div>
+    <div class="card">
+        <img class="profile-picture" src="cat.jpg">
+        <input type="text" class="text-box" placeholder="What's happening?">
+        <button class="tweet-button">
+            Tweet
+        </button>
+        <div class="profile">
+            <img class="profile-picture" src="cat.jpg">
+            <p class="name">
+                Oliver
+            </p>
+            <p class="mutual-friends">
+                2 mutual friends
+            </p>
+            <button class="add-friend-button">
+                Add Friend
+            </button>
+        </div>
+        <div class="profile">
+            <img class="profile-picture" src="cat.jpg">
+            <p class="name">
+                Oliver
+            </p>
+            <p class="mutual-friends">
+                2 mutual friends
+            </p>
+            <button class="add-friend-button">
+                Add Friend
+            </button>
+        </div>
+        <div class="profile">
+            <img class="profile-picture" src="cat2,jpg.jpg">
+            <p class="name">
+                Mimi
+            </p>
+            <p class="mutual-friends">
+                3 mutual friends
+            </p>
+            <button class="add-friend-button">
+                Add Friend
+            </button>
+        </div>
+        <div class="profile">
+            <img class="profile-picture" src="dog,jpg.jpg">
+            <p class="name">
+                Rex
+            </p>
+            <p class="mutual-friends">
+                4 mutual friends
+            </p>
+            <button class="add-friend-button">
+                Add Friend
+            </button>
+        </div>
+
+        <div>
+            <img class="google-logo" src="google-logo.jpg">
+        </div>
+        <div>
+            <input type="text" placeholder="Search Google or type a URL">
+        </div>
+        <div>
+            <button class="google-button search-button">Google Search</button>
+            <button class="google-button">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+
+</html>
