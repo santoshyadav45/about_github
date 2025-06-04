@@ -1,0 +1,1 @@
+console.log("hii, This is day 10 of javascript series");
